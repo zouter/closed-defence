@@ -1,0 +1,15 @@
+{
+  "name": "closed",
+  "version": "1.0.0",
+  "description": "My closed defence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/zouter/closed-defence",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal": "0.0.4"
+  }
+}
