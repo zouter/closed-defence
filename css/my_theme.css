@@ -1,0 +1,284 @@
+/* @font-face {
+    font-family: 'paperdaisy';
+    src: url('../fonts/paperdaisy-demo.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Layout */
+
+div.container, .chapter-content > div.container {
+    display: flex;
+    align-items: center;
+    height:600px;
+}
+.col{
+    flex: 1;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+div.container-row,  .chapter-content > div.container-row {
+    display: flex;
+    align-items: center;
+    height:600px;
+    flex-direction:row;
+}
+.row {
+    flex: 1;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+/* Slides top align */
+.reveal .slides section[data-vertical-align-top]{
+	top: 0 !important;
+}
+
+
+
+/* Text */
+.reveal {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: #475255;
+}
+
+.reveal h3 {
+    font-family:inherit;
+    font-size:1em;
+    text-transform: inherit;
+    padding:10px;
+    color: #475255;
+}
+
+
+
+/* Animations */
+.canactive {
+    transition: all 0.2s linear;
+}
+.active {
+    opacity:1;
+}
+.inactive {
+    opacity:0;
+    transition: all 0.0s linear; /* no transition when going backwards */
+}
+.postactive.partial-fade {
+    opacity:0.5;
+}
+
+
+
+/* Chapters */
+.chapter-title {
+    font-size: 0.5em;
+    vertical-align:middle;
+}
+
+.chapter-number {
+    display:inline-block;
+
+    border-radius:50%;
+    border:2px solid;
+
+    background-color: white;
+    color: #fdf6e3;
+
+    font-size: 0.9em;
+    font-weight:bold;
+}
+
+.chapter-number:before,
+.chapter-number:after {
+    content:'\200B';
+    display:inline-block;
+    line-height:0px;
+
+    padding-top:50%;
+    padding-bottom:50%;
+}
+
+.chapter-number:before {
+    padding-left:12px;
+}
+.chapter-number:after {
+    padding-right:12px;
+}
+
+.chapter-heading {
+    font-size: 0.8em;
+    opacity:0.8;
+    margin-bottom:20px;
+}
+
+.chapter-subheading {
+    /* font-family:"paperdaisy"; */
+    transition: all 0.2s linear;
+}
+
+.chapter-subheading > .active {
+    opacity:1;
+}
+.chapter-subheading > .inactive {
+    opacity:0;
+    color: black;
+}
+.chapter-subheading > .postactive {
+    opacity:0.2;
+}
+
+.chapter-content {
+    height:100%;
+}
+
+.chapter-content > div {
+    height:100%;
+    width:100%;
+}
+
+.chapter-content.inactive {
+    position:absolute;
+    bottom:-10000px;
+    left:-10000px;
+}
+
+
+/* Main title */
+
+h1.title {
+    font-size: 1.5em
+}
+
+
+
+
+/* Tables with equal column widths */
+
+.reveal table th, .reveal table td {
+    border:0;
+    text-align:center;
+}
+
+.table-justified {
+    width:100%;
+}
+
+.table-justified th {
+    font-weight:normal!important;
+    text-align:center!important;
+}
+
+.table-justified td {
+    max-width: 0;
+}
+
+
+
+
+/* Fragments */
+.fade-in-then-gone:not(.current-fragment) {
+    display:none;
+}
+
+
+
+/* Images */
+.reveal section object, .reveal section img, .reveal section svg {
+    max-width: 95%;
+    max-height: 95%;
+    margin: 10px 0px;
+    padding: 10p;
+    object-fit: contain;
+    box-shadow:none;
+}
+
+object.bordered, img.bordered, svg.bordered, div.bordered {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+    background:white;
+}
+
+.full {
+    height:100%;
+    width:100%;
+}
+.full > img, .full > svg {
+    width:100%;
+    height:100%
+}
+
+div.bordered {
+    margin: 5px;
+}
+
+
+
+/* Conclusion boxes */
+
+.conclusion-box {
+    height:95%;
+    margin-top:auto;
+    width:100%;
+}
+
+.conclusion-icon {
+    width:100%;
+}
+
+.conclusion-content {
+    font-size:0.7em;
+    width:100%;
+    margin:20px;
+    text-align:left;
+}
+
+.conclusion-content ul li:before { 
+    font-family: 'FontAwesome';
+    margin:0 20px 0 -15px;
+}
+
+.conclusion-content.check ul li:before {
+    content: '\f00c';
+}
+.conclusion-content.publications ul li:before {
+    content: '\f1ea';
+}
+.conclusion-content.limitations ul li:before {
+    content: '\f00d';
+}
+.conclusion-content.perspectives ul li:before {
+    content: '\f128';
+}
+
+.conclusion-content ul {
+    margin-left: 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.conclusion-content li {
+    list-style-position: inside;
+    text-indent: -2.5em;
+    padding-left: 2em;
+}
+
+.conclusion-content ul, .conclusion-content li {
+    word-break: break-word;
+    white-space: normal;
+}

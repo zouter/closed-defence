@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="171.09274mm"
+   height="55.772629mm"
+   viewBox="0 0 171.09274 55.772629"
+   version="1.1"
+   id="svg1350"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="assumption.svg">
+  <defs
+     id="defs1344">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path3849"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       id="linearGradient3556"
+       osb:paint="solid"
+       gradientTransform="matrix(0.00945618,0,0,0.00945618,67.338092,65.699573)">
+      <stop
+         style="stop-color:#ff851b;stop-opacity:1;"
+         offset="0"
+         id="stop3554" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2145"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1297"
+       id="linearGradient1309"
+       x1="942.96021"
+       y1="-79.476646"
+       x2="1154.6733"
+       y2="-79.476646"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient1297"
+       osb:paint="solid"
+       gradientTransform="matrix(0.00473362,5.5112708e-4,0.00126837,-0.00205683,55.205988,25.041848)">
+      <stop
+         style="stop-color:#475255;stop-opacity:1;"
+         offset="0"
+         id="stop1295" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2145-7"
+         style="fill:#ff851b;fill-opacity:1;fill-rule:evenodd;stroke:#ff851b;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3556"
+       id="linearGradient3558"
+       x1="49.754997"
+       y1="44.333668"
+       x2="143.66188"
+       y2="44.333668"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.69704158,0,12.207751)" />
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2145-7-3"
+         style="fill:#ff851b;fill-opacity:1;fill-rule:evenodd;stroke:#ff851b;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2145-2"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2145-6"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-12"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2145-70"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-12-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2145-70-0"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-12-6-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2145-70-0-6"
+         style="fill:#475255;fill-opacity:1;fill-rule:evenodd;stroke:#475255;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1297"
+       id="linearGradient1412"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.35277776,0,0,0.35277776,-312.10795,46.139607)"
+       x1="942.96021"
+       y1="-79.476646"
+       x2="1154.6733"
+       y2="-79.476646" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1297"
+       id="linearGradient1414"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.35277776,0,0,0.35277776,-320.74279,55.494053)"
+       x1="942.96021"
+       y1="-79.476646"
+       x2="1154.6733"
+       y2="-79.476646" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1297"
+       id="linearGradient1416"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.35277776,0,0,0.35277776,-209.03835,46.13962)"
+       x1="942.96021"
+       y1="-79.476646"
+       x2="1154.6733"
+       y2="-79.476646" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1297"
+       id="linearGradient1418"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.35277776,0,0,0.35277776,-226.62672,55.494064)"
+       x1="942.96021"
+       y1="-79.476646"
+       x2="1154.6733"
+       y2="-79.476646" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="267.66619"
+     inkscape:cy="50.196438"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata1347">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.63428,-2.5324642)">
+    <g
+       id="g3633"
+       data-index="knowing"
+       transform="translate(0,-3.4745039)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.99539137px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1412);fill-opacity:1;stroke:none;stroke-width:0.14988478"
+         x="20.145742"
+         y="19.987562"
+         id="text6824-7-3-6"><tspan
+           sodipodi:role="line"
+           id="tspan6822-5-5-2"
+           x="20.145742"
+           y="19.987562"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Lato;-inkscape-font-specification:Lato;fill:url(#linearGradient1412);fill-opacity:1;stroke-width:0.14988478">What we actually want to know:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.99539185px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1414);fill-opacity:1;stroke:none;stroke-width:0.14988478"
+         x="47.503395"
+         y="29.342007"
+         id="text6824-7-3-6-6"><tspan
+           sodipodi:role="line"
+           id="tspan6822-5-5-2-7"
+           x="48.11731"
+           y="29.342007"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1414);fill-opacity:1;stroke-width:0.14988478">Genes with shared </tspan><tspan
+           id="tspan1975"
+           sodipodi:role="line"
+           x="47.503395"
+           y="37.279507"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1414);fill-opacity:1;stroke-width:0.14988478">regulation and/or function</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.99539185px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1416);fill-opacity:1;stroke:none;stroke-width:0.14988478"
+         x="123.21534"
+         y="19.987574"
+         id="text6824-7-3-6-3"><tspan
+           sodipodi:role="line"
+           id="tspan6822-5-5-2-5"
+           x="123.21534"
+           y="19.987574"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Lato;-inkscape-font-specification:Lato;fill:url(#linearGradient1416);fill-opacity:1;stroke-width:0.14988478">What we actually find:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.99539185px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1418);fill-opacity:1;stroke:none;stroke-width:0.14988478"
+         x="141.61946"
+         y="29.342018"
+         id="text6824-7-3-6-6-6"><tspan
+           id="tspan1975-9"
+           sodipodi:role="line"
+           x="142.23337"
+           y="29.342018"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1418);fill-opacity:1;stroke-width:0.14988478">Genes with similar expression </tspan><tspan
+           id="tspan2089"
+           sodipodi:role="line"
+           x="141.61946"
+           y="37.279518"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1418);fill-opacity:1;stroke-width:0.14988478">= <tspan
+   id="tspan2091"
+   style="font-style:italic;fill:url(#linearGradient1418)">modules</tspan></tspan></text>
+    </g>
+    <g
+       id="g3620"
+       data-index="assumption">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2116"
+         d="M 143.3901,11.181164 C 134.23612,7.2036251 63.075607,5.8390668 50.380304,11.355363"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient1297);stroke-width:0.57599998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend);paint-order:normal" />
+      <text
+         id="text3504-3"
+         y="6.0168338"
+         x="87.208694"
+         style="font-style:normal;font-weight:normal;font-size:5.40319443px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1297);fill-opacity:1;stroke:none;stroke-width:0.13507986"
+         xml:space="preserve"><tspan
+           style="font-size:4.58611107px;fill:url(#linearGradient1297);stroke-width:0.13507986"
+           y="6.0168338"
+           x="87.208694"
+           id="tspan3502-6"
+           sodipodi:role="line">assumption</tspan></text>
+    </g>
+    <g
+       id="g7275"
+       data-index="applications"
+       class="canactive inactive"
+       transform="translate(-2.0045214,29.266014)"
+       style="fill:url(#linearGradient1297)">
+      <text
+         id="text6824-7-3-6-6-61"
+         y="16.614477"
+         x="51.167877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.37307167px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1297);fill-opacity:1;stroke:none;stroke-width:0.10932679"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.63172483px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1297);fill-opacity:1;stroke-width:0.10932679"
+           y="16.614477"
+           x="51.615673"
+           sodipodi:role="line"
+           id="tspan1975-5">Functional understanding </tspan><tspan
+           id="tspan7125"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.63172483px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1297);fill-opacity:1;stroke-width:0.10932679"
+           y="22.404133"
+           x="51.615669"
+           sodipodi:role="line">Features for machine learning </tspan><tspan
+           id="tspan7127"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.63172483px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:url(#linearGradient1297);fill-opacity:1;stroke-width:0.10932679"
+           y="28.193789"
+           x="51.167881"
+           sodipodi:role="line">Understanding of gene regulation</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path2116-9"
+         d="m 52.038814,6.7256093 c 0,1.653645 -0.101166,5.1215477 -0.101166,5.1215477"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient1297);stroke-width:0.57600003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend-12-6);paint-order:normal"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g7275-1"
+       data-index="applications"
+       class="canactive inactive"
+       transform="translate(92.017056,29.266014)"
+       style="fill:url(#linearGradient1297)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="assumption"
+     style="display:inline"
+     transform="translate(7.9271704e-7,-1.0690775)">
+    <g
+       transform="translate(-11.63428,-4.3927023)"
+       id="g3609"
+       data-index="evaluate"
+       class="canactive inactive">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2116-0"
+         d="m 50.034292,40.574584 c 9.15398,6.380707 80.314498,8.569708 93.009798,-0.279447"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient3558);stroke-width:0.46169424;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend-2-7);paint-order:normal" />
+      <text
+         id="text3504"
+         y="51.352596"
+         x="85.070541"
+         style="font-style:normal;font-weight:normal;font-size:5.40319443px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3556);fill-opacity:1;stroke:none;stroke-width:0.13507986"
+         xml:space="preserve"><tspan
+           style="fill:url(#linearGradient3556);stroke-width:0.13507986"
+           y="51.352596"
+           x="85.070541"
+           id="tspan3502"
+           sodipodi:role="line">evaluate</tspan></text>
+      <text
+         id="text3504-6"
+         y="55.80331"
+         x="51.752235"
+         style="font-style:normal;font-weight:normal;font-size:5.40319443px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:url(#linearGradient3556);fill-opacity:1;stroke:none;stroke-width:0.13507986"
+         xml:space="preserve"><tspan
+           style="font-size:4.23333311px;fill:url(#linearGradient3556);stroke-width:0.13507986"
+           y="55.80331"
+           x="51.752235"
+           id="tspan3502-7"
+           sodipodi:role="line">with known regulatory and co-functional networks</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="results"
+     style="display:inline"
+     transform="translate(7.9271704e-7,-1.0690775)" />
+</svg>

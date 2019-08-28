@@ -1,0 +1,31 @@
+[
+    {
+        "label": "Developing",
+        "color": "#FF4136"
+    
+    },
+    {
+        "label": "&",
+        "color": "#333333"
+    },
+    {
+        "label": "Benchmarking",
+        "color": "#FF4136"
+    },
+    {
+        "label": "Methods",
+        "color": "#0074D9"
+    },
+    {
+        "label": "for",
+        "color": "#0074D9"
+    },
+    {
+        "label": "Analysing",
+        "color": "#FF851B"
+    },
+    {
+        "label": "Transcriptomics data",
+        "color": "#2ECC40"
+    }
+]
