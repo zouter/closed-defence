@@ -25,13 +25,14 @@ div.container, .chapter-content > div.container {
     height:100%;
     display:flex;
     align-items:center;
+    justify-content:center;
 }
 
 div.container-row,  .chapter-content > div.container-row {
     display: flex;
     align-items: center;
     height:600px;
-    flex-direction:row;
+    flex-direction:column;
 }
 .row {
     flex: 1;
@@ -53,14 +54,14 @@ div.container-row,  .chapter-content > div.container-row {
 /* Text */
 .reveal {
   font-family: "Lato", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
   color: #475255;
 }
 
 .reveal h3 {
     font-family:inherit;
-    font-size:1em;
+    font-size:1.2em;
     text-transform: inherit;
     padding:10px;
     color: #475255;
@@ -70,7 +71,7 @@ div.container-row,  .chapter-content > div.container-row {
 
 /* Animations */
 .canactive {
-    transition: all 0.2s linear;
+    transition: all 0.05s linear;
 }
 .active {
     opacity:1;
@@ -87,7 +88,7 @@ div.container-row,  .chapter-content > div.container-row {
 
 /* Chapters */
 .chapter-title {
-    font-size: 0.5em;
+    font-size: 0.7em;
     vertical-align:middle;
 }
 
@@ -95,12 +96,11 @@ div.container-row,  .chapter-content > div.container-row {
     display:inline-block;
 
     border-radius:50%;
-    border:2px solid;
 
     background-color: white;
     color: #fdf6e3;
 
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight:bold;
 }
 
@@ -122,7 +122,7 @@ div.container-row,  .chapter-content > div.container-row {
 }
 
 .chapter-heading {
-    font-size: 0.8em;
+    font-size: 0.9em;
     opacity:0.8;
     margin-bottom:20px;
 }
@@ -153,6 +153,13 @@ div.container-row,  .chapter-content > div.container-row {
 }
 
 .chapter-content.inactive {
+    position:absolute;
+    bottom:-10000px;
+    left:-10000px;
+}
+
+.past svg {
+    display:block;
     position:absolute;
     bottom:-10000px;
     left:-10000px;
@@ -208,7 +215,7 @@ h1.title {
     box-shadow:none;
 }
 
-object.bordered, img.bordered, svg.bordered, div.bordered {
+object.bordered, img.bordered, svg.bordered, div.bordered, rect.bordered {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
     background:white;
 }
@@ -219,7 +226,9 @@ object.bordered, img.bordered, svg.bordered, div.bordered {
 }
 .full > img, .full > svg {
     width:100%;
-    height:100%
+    height:100%;
+    max-width:100%;
+    max-height:100%;
 }
 
 div.bordered {
@@ -230,6 +239,11 @@ div.bordered {
 
 /* Conclusion boxes */
 
+ .chapter-content > div.conclusion-container.container-row {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .conclusion-box {
     height:95%;
     margin-top:auto;
@@ -237,7 +251,13 @@ div.bordered {
 }
 
 .conclusion-icon {
-    width:100%;
+    float:left;
+    height:100%;
+    width:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:10px;
 }
 
 .conclusion-content {
@@ -247,7 +267,7 @@ div.bordered {
     text-align:left;
 }
 
-.conclusion-content ul li:before { 
+/* .conclusion-content ul li:before { 
     font-family: 'FontAwesome';
     margin:0 20px 0 -15px;
 }
@@ -263,12 +283,12 @@ div.bordered {
 }
 .conclusion-content.perspectives ul li:before {
     content: '\f128';
-}
+} */
 
 .conclusion-content ul {
     margin-left: 0;
-    padding-left: 40px;
-    padding-right: 20px;
+    /* padding-left: 40px; */
+    /* padding-right: 20px; */
     list-style-type: none;
 }
 

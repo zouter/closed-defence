@@ -38,7 +38,6 @@ activateFragment = function(currentSlideId, currentFragment, isSlideEvent) {
   if (curActives == null) { curActives = [] }
 
   if (allActives != null) {
-    console.log(curActives)
     allActives.forEach(function (index) {
       var selector = "[data-index='" + index + "']"
       d3.selectAll(selector).classed("canactive", true)
@@ -91,18 +90,25 @@ pt.slideActives = {
     init: function(slideId) {
     }
   },
+  'intro': {
+    'actives': [
+      [],
+      ["goals"]
+    ]
+  },
   'triwise': {
     'init': function(slideId) {
     },
     'actives': [
-        ["problem", "existing"],
-        ["problem", "existing", "needed"],
-        ["solution"],
-        ["solution", "non-diffexp"],
-        ["solution", "diffexp-1"],
-        ["solution", "diffexp-2"],
-        ["solution", "significant"],
-        ["conclusion"]
+      ["problem", "existing"],
+      ["problem", "existing", "needed"],
+      ["solution"],
+      ["solution", "non-diffexp"],
+      ["solution", "diffexp-1"],
+      ["solution", "diffexp-2"],
+      ["solution", "significant"],
+      ["conclusion"],
+      ["conclusion", "future"]
     ]
   },
   'modbenchmark': {
@@ -118,27 +124,42 @@ pt.slideActives = {
       ["solution", "solution-2", "local", "network-inference", "method-backgrounds", "raw-results"],
       ["solution", "solution-2", "local", "network-inference", "method-backgrounds", "raw-results", "running-time"],
       ["solution", "solution-2", "local", "network-inference", "method-backgrounds", "raw-results", "running-time", "summary"],
-      ["conclusion"]
+      ["conclusion"],
+      ["conclusion", "future"]
     ]
   },
   'dynbenchmark': {
-    'init': function (slideId) {
-    },
     'actives': [
-      ["problem"],
-      ["solution"],
-      ["conclusion"]
+      ["problem", "problem-1"],
+      ["problem", "problem-2"],
+      ["problem", "problem-2", "technologies"],
+      ["solution", "solution-1", "guidelines"],
+      ["solution", "solution-1", "highlight"],
+      ["solution", "solution-2", "dynguidelines"],
+      ["conclusion"],
+      ["conclusion", "future"]
     ]
   },
+  'dyno': {
+    'actives': [
+      [],
+      ["extensions"]
+    ]
+  },
+  'komparo': {
+    'actives': [
+      ["modules"],
+      ["modules", "modern"],
+      ["modules", "modern", "promotes"],
+    ]
+  }
 };
 
 
 
 function registerFakeFragments(slide, fragmentIndices, stateChangeHandler) {
   var state = Reveal.getState()
-  console.log(Reveal.getState())
   var currentFragment = parseInt(slide.find(".fragment.current-fragment").data("fragment-index"))
-  console.log("-->" + currentFragment)
 
   slide.find(".fragment").remove()
 
@@ -157,7 +178,6 @@ function registerFakeFragments(slide, fragmentIndices, stateChangeHandler) {
   }
   
   Reveal.setState(state)
-  console.log(Reveal.getState())
 }
 
 Reveal.addEventListener( 'ready', function( event ) {

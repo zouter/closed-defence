@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="132.23219mm"
+   height="135.0412mm"
+   viewBox="0 0 132.2322 135.0412"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="intro.svg">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter6455">
+      <feFlood
+         flood-opacity="0.14000000000000001"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood6445" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite6447" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur6449" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset6451" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite6453" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="360.35773"
+     inkscape:cy="294.60674"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(6.48878,20.923034)">
+    <g
+       id="g6443"
+       style="filter:url(#filter6455)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.54099995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.44881891;paint-order:normal"
+         id="rect1985-5-0"
+         width="109.78999"
+         height="21.922619"
+         x="4.7323184"
+         y="-9.6696005" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.54100001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.44881891;paint-order:normal"
+         id="rect1985-5-7"
+         width="110.19349"
+         height="21.922619"
+         x="4.5305691"
+         y="80.942108" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.54099995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.44881891;paint-order:normal"
+         id="rect1985-5"
+         width="109.78999"
+         height="21.922619"
+         x="4.7323184"
+         y="35.498947" />
+    </g>
+    <g
+       id="g1995-5-1"
+       transform="matrix(1.0122762,0,0,1,8.1654237,54.384074)"
+       style="stroke-width:0.99391788">
+      <text
+         id="text817-6-0"
+         y="39.626961"
+         x="50.921417"
+         style="font-style:normal;font-weight:normal;font-size:6.70148325px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26297408"
+         xml:space="preserve"><tspan
+           id="tspan819-9-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:#475255;fill-opacity:1;stroke-width:0.26297408"
+           y="39.626961"
+           x="50.921417"
+           sodipodi:role="line">What is inside cells?</tspan></text>
+    </g>
+    <g
+       id="g1995-5"
+       transform="translate(9.5913309,8.9409158)">
+      <text
+         id="text817-6"
+         y="39.626961"
+         x="50.921417"
+         style="font-style:normal;font-weight:normal;font-size:6.70148325px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan819-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
+           y="39.626961"
+           x="50.921417"
+           sodipodi:role="line">How do cells function?</tspan></text>
+    </g>
+    <g
+       id="g1995"
+       transform="translate(8.1213442,-36.502238)">
+      <text
+         id="text817"
+         y="34.88958"
+         x="50.921417"
+         style="font-style:normal;font-weight:normal;font-size:6.70148325px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
+           y="34.88958"
+           x="51.569317"
+           id="tspan815"
+           sodipodi:role="line">What causes disease? </tspan><tspan
+           id="tspan819"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
+           y="43.569572"
+           x="50.921417"
+           sodipodi:role="line">How can we improve crop yield?</tspan></text>
+    </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#475255;fill-opacity:0.57086618;stroke:none;stroke-width:1.04128289;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path25730"
+       sodipodi:sides="3"
+       sodipodi:cx="7.7471938"
+       sodipodi:cy="-22.971327"
+       sodipodi:r1="11.752385"
+       sodipodi:r2="10.177864"
+       sodipodi:arg1="1.3296786"
+       sodipodi:arg2="2.3768762"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 10.553524,-11.558918 -14.092931,-14.68826 19.766871,-4.860707 z"
+       inkscape:transform-center-x="-0.91280061"
+       transform="matrix(0.50714691,0.1228357,-0.12428992,0.50215507,52.845632,78.249685)"
+       inkscape:transform-center-y="0.86555706" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#475255;fill-opacity:0.57086618;stroke:none;stroke-width:1.04128289;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path25730-6"
+       sodipodi:sides="3"
+       sodipodi:cx="7.7471938"
+       sodipodi:cy="-22.971327"
+       sodipodi:r1="11.752385"
+       sodipodi:r2="10.177864"
+       sodipodi:arg1="1.3296786"
+       sodipodi:arg2="2.3768762"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 10.553524,-11.558918 -14.092931,-14.68826 19.766871,-4.860707 z"
+       inkscape:transform-center-x="-0.91280061"
+       transform="matrix(0.5071469,0.1228357,-0.12428992,0.50215506,52.845632,32.806533)"
+       inkscape:transform-center-y="0.86555706" />
+  </g>
+</svg>

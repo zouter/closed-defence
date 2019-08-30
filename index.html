@@ -9,7 +9,8 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/solarized.css">
-		<link rel="stylesheet" href="css/my_theme.css">
+    <link rel="stylesheet" href="css/my_theme.css">
+    <link rel="stylesheet" href="fonts/fontawesome.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -22,52 +23,56 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
-    <script src="https://kit.fontawesome.com/77f7a120e4.js"></script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<div class="full" style="height:600px;">
+					<div class="chapter-content bordered full">
             <div id="overview" data-svg="slides/title/overview.svg"></div>
           </div>
 				</section>
 				<section>
-					<table class="table-justified" style="width:100%">
-						<tr>
-							<td>
-								<img src="http://s3.amazonaws.com/deeporigins/6/2015/12/5558666_orig.jpg">
-							</td>
-							<td>
-								<img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/11/06/622687-diagramshowinghownormalcellsmakeupthetissueinourbodycruk135.svg.png">
-							</td>
-							<td>
-                <!-- <img src="https://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/105292327/44350_36a.jpg"> -->
-              </td>
-						</tr>
-						<tr>
-              <td>
-                What causes disease?
-                How can we improve crop yield?
-              </td>
-              <td>
-                How do (our) cells functions?
-              </td>
-              <td>
-                What is inside (our) cells?
-              </td>
-            </tr>
-          </table>
-          
+          <div class="chapter-heading">
+            Big questions often have tiny answers
+          </div>
+          <div class="chapter-content" style="height:500px;">
+            <div data-svg="slides/intro/intro.svg" class="full"></div>
+          </div>
           <aside class="notes">
             1 min
 
-            Ever noticed how the biggest questions in biology, such as finding the cause of a disease or trying to improve crop yield, are boiled down to understanding the tinniest. I find this a bit funny too, to solve the biggest, we need to understand the tinniest. That's why I'm really happy that during my PhD I was able to work on solving perhaps very tiny questions, such as finding the right tool to analyse some dataset, but which can allow us to go back to these "bigger" questions and try to address them.
+            It's a bit ironic that the big questions that we want to answer, such as causes of disease or how to make crops grow better, ultimately lead us to smaller questions about cells and the molecules therein. In my PhD I studied one particular kind of molecule, mRNAs. That's why I'm really happy that during my PhD I was able to work on solving perhaps very tiny questions, such as finding the right tool to analyse some dataset, but which can allow us to go back to these "bigger" questions and try to address them.
           </aside>
         </section>
 
-        <section>
-          Analyzing transcriptomics data
+        <section id="intro">
+          <div class="container">
+            <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
+              class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
+              class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
+              class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a>
+            <div class="col bordered" data-svg="slides/intro/tools.svg">
+            </div>
+            <div class="col bordered" style="line-height:2em;" data-index="goals">
+              <div>
+                <p>My goals: </p>
+                <ul class="fa-ul" style="list-style-type: none;padding-left:40px">
+                  <li>
+                    <span class="fa-li"><i class="far fa-square"></i></span>
+                    Fill the gaps where possible
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="far fa-square"></i></span>
+                    Compare methods where needed
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <aside class="notes">
+            My goals were pragmatic here: I wanted to fill the gaps whem I came across them, and wherever it was needed I also wanted to compare different methods.
+          </aside>
         </section>
 
         <section data-vertical-align-top id="triwise">
@@ -90,20 +95,23 @@
 
           <div class="chapter-content" data-index="problem">
             <div class = "container">
-              <div class="col bordered" data-index="existing" style="flex-direction:column;">
-                  <p><img src="slides/triwise/two.png" style="width:50%;"></p>
+              <div class="col bordered" data-index="existing">
+                <div>
+                  <p>Comparing two populations: <br>easy</p>
                   <p><img src="slides/triwise/two_example.png" style="width:75%"></p>
+                </div>
               </div>
-              <div class="col bordered" data-index="needed" style="flex-direction:column;">
-                  <img src="slides/triwise/three.png" style="width:50%;">
-                  <br>
-                  <object>
-                    ??
-                  </object>
+              <div class="col bordered" data-index="needed">
+                <div>
+                  <p style="align-self: flex-start">Comparing three populations: </p>
+                  <p style="line-height:300px;">a bit more difficult</p>
+                </div>   
               </div>
-              <div class="col bordered" data-index="existing" style="flex-direction:column;">
-                  <img src="slides/triwise/many.png" style="width:50%;">
-                  <img src="slides/triwise/many_example.png" style="width:75%">
+              <div class="col bordered" data-index="existing">
+                <div>
+                  <p>Comparing many populations: <br>easy</p>
+                  <p><img src="slides/triwise/many_example.png" style="width:75%"></p>
+                </div>
               </div>
             </div>
           </div>
@@ -113,46 +121,49 @@
                 <div class="col bordered" data-svg="slides/triwise/lianne2.svg" style="float:right;background-color:white;" data-index="significant"></div>
             </div>
           </div>
+
           <div class="chapter-content" data-index="conclusion">
-            <div class = "container" style="height:200px;">
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content check">
+            <div class="container-row conclusion-container">
+              <div class="row bordered conclusion-box">
+                <div class="conclusion-icon"><i class="fas fa-check"></i></div>
+                <div class="conclusion-content">
                   <ul>
-                    <li>R package</li>
                     <li>Useful for multiple designs</li>
-                    <li>Different statistical tests depending on the biological question</li>
+                    <li>Different tests depending on the biological question</li>
                   </ul>
                 </div>
               </div>
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content publications">
+              <div class="row bordered conclusion-box">
+                <div class="conclusion-icon"><i class="fas fa-newspaper"></i></div>
+                <div class="conclusion-content">
                   <ul>
                     <li>3 co-publications</li>
                     <li>4 other studies</li>
+                    <li>R package</li>
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class = "container" style="height:200px;">
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content limitations">
+              <div class="row bordered conclusion-box" data-index="future">
+                <div class="conclusion-icon"><i class="fas fa-times"></i></div>
+                <div class="conclusion-content">
                   <ul>
                     <li>Limited to 3 dimensions</li>
                     <li>Slow implementation of permutation test</li>
                   </ul>
                 </div>
               </div>
-
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content perspectives">
+              <div class="row bordered conclusion-box" data-index="future">
+                <div class="conclusion-icon"><i class="fas fa-tasks"></i></div>
+                <div class="conclusion-content">
                   <ul>
                     <li>Better statistical framework</li>
-                    <li></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
+
+
         </section>
 
         <section data-vertical-align-top id="modbenchmark">
@@ -185,39 +196,38 @@
           </div>
 
           <div class="chapter-content" data-index="conclusion">
-            <div class="container" style="height:250px;">
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content check">
+            <div class="container-row conclusion-container">
+              <div class="row bordered conclusion-box">
+                <div class="conclusion-icon"><i class="fas fa-check"></i></div>
+                <div class="conclusion-content">
                   <ul>
                     <li>First large-scale evaluation of these methods</li>
-                    <li>Useful for users and developers</li>
+                    <li>Decomposition methods for local co-expression</li>
                     <li>Pinpoints challenges to interpretation and accuracy</li>
                   </ul>
                 </div>
               </div>
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content publications">
+              <div class="row bordered conclusion-box">
+                <div class="conclusion-icon"><i class="fas fa-newspaper"></i></div>
+                <div class="conclusion-content">
                   <ul>
-                    <li>1 first-author publication</li>
-                    <li>Used by developers</li>
-                    <li>Used by users, e.g. Plasmodium life cycle</li>
+                    <li>1 first author publication</li>
+                    <li>Used by developers & users</li>
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class="container" style="height:250px;">
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content limitations">
+              <div class="row bordered conclusion-box" data-index="future">
+                <div class="conclusion-icon"><i class="fas fa-times"></i></div>
+                <div class="conclusion-content">
                   <ul>
-                    <li>Limited to larger datasets</li>
-                    <li>Limited to bulk (and mostly microarrays)</li>
+                    <li>Limited to larger bulk datasets</li>
                     <li>Extendability could have been better</li>
                   </ul>
                 </div>
               </div>
-          
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content perspectives">
+              <div class="row bordered conclusion-box" data-index="future">
+                <div class="conclusion-icon"><i class="fas fa-tasks"></i></div>
+                <div class="conclusion-content">
                   <ul>
                     <li>Single-cell data changes the playing field</li>
                     <li>Other omics data types</li>
@@ -242,9 +252,9 @@
             class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
             class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a>
           <div class="chapter-heading">
-            <span class="chapter-number" style="background-color:#FFDC00">4</span>
+            <span class="chapter-number" style="background-color:#93cc2e">4</span>
             Trajectory inference comparison |
-            <span class="chapter-subheading" style="color:#FFDC00">
+            <span class="chapter-subheading" style="color:#93cc2e">
               <span data-index="problem">
                 problem
               </span>
@@ -256,51 +266,61 @@
               </span>
             </span>
           </div>
-          <div class="container-row chapter-content" data-index="problem">
 
-
+          <div class="container-row chapter-content bordered" data-index="problem-1">
+              <div class="full" data-svg="slides/dynbenchmark/trajectory_example.svg"></div>
           </div>
+
+          <div class="container-row chapter-content bordered" data-index="problem-2">
+              <div class="full" data-svg="slides/dynbenchmark/history.svg"></div>
+          </div>
+ 
         
-          <div class="container-row chapter-content" data-index="solution">
+          <div class="container-row chapter-content bordered" data-index="solution-1">
+            <div class="full" data-svg="slides/dynbenchmark/guidelines.svg"></div>
+          </div>
+
+          <div class="container-row chapter-content bordered" data-index="solution-2">
+            <iframe src="slides/dynbenchmark/dynguidelines.html" style="width:100%;height:100%;max-width:100%;max-height:100%;"></iframe>
           </div>
         
           <div class="chapter-content" data-index="conclusion">
-            <div class="container" style="height:250px;">
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content check">
+            <div class="container-row conclusion-container">
+              <div class="row bordered conclusion-box">
+                <div class="conclusion-icon"><i class="fas fa-check"></i></div>
+                <div class="conclusion-content">
                   <ul>
                     <li>First large-scale evaluation of these methods</li>
-                    <li>Useful for users and developers</li>
-                    <li>Pinpoints challenges to interpretation and accuracy</li>
+                    <li>Interactive context-dependent guidelines</li>
                   </ul>
                 </div>
               </div>
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content publications">
+              <div class="row bordered conclusion-box">
+                <div class="conclusion-icon"><i class="fas fa-newspaper"></i></div>
+                <div class="conclusion-content">
                   <ul>
-                    <li>1 first-author publication</li>
-                    <li>Used by developers</li>
-                    <li>Used by users, e.g. Plasmodium life cycle</li>
+                    <li>2 shared first-author publication</li>
+                    <li>3 preprints</li>
+                    <li>Dozens of R packages</li>
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class="container" style="height:250px;">
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content limitations">
+              <div class="row bordered conclusion-box" data-index="future">
+                <div class="conclusion-icon"><i class="fas fa-times"></i></div>
+                <div class="conclusion-content">
                   <ul>
-                    <li>Limited to larger datasets</li>
-                    <li>Limited to bulk (and mostly microarrays)</li>
-                    <li>Extendability could have been better</li>
+                    <li>Problematic extendability</li>
+                    <li>Already outdated</li>
+                    <li>Some discussion in the field</li>
                   </ul>
                 </div>
               </div>
-        
-              <div class="col bordered conclusion-box">
-                <div class="conclusion-content perspectives">
+              <div class="row bordered conclusion-box" data-index="future">
+                <div class="conclusion-icon"><i class="fas fa-tasks"></i></div>
+                <div class="conclusion-content">
                   <ul>
-                    <li>Single-cell data changes the playing field</li>
-                    <li>Other omics data types</li>
+                    <li>Crowd-sourced competition</li>
+                    <li>Countless extensions are possible</li>
                   </ul>
                 </div>
               </div>
@@ -309,24 +329,86 @@
         
         
           <aside class="notes">
-            What we want to know is which genes share regulation (ie. to find their common regulator that can be targeted) or
-            function (i.e. to understand more about the functional process)
+
           </aside>
         </section>
 
+
         <section data-vertical-align-top>
+          <div class="chapter-heading">
+            <span class="chapter-number" style="background-color:darkgray">5</span>
+            Overall conclusions
+          </div>
+          <div class="container-row" style="font-size:0.8em">
+            <div class="row bordered" >
+              Benchmarking is important for
+              <ul style="list-style: none;text-align:left;">
+                <li>
+                  → users, because popular ⇏ best performance
+                </li>
+                <li>
+                  → developers, because good ideas ⇏ better for users
+                </li>
+              </ul>
+            </div>
+            <div class="row bordered">
+              Accuracy, scalability, usability and stability are not always correlated. <br>
+              Find a balance
+            </div>
+            <div class="row bordered">
+               Performance is context-dependent <br>
+               Avoid falling in the "ranking" trap
+            </div>
+            <div class="row bordered">
+              Benchmarking studies can easily contradict <br>
+              Finding common ground is difficult
+            </div>
+          </div>
+        </section>
+
+        <section data-vertical-align-top id="dyno">
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:#0074D9">6</span> 
             Future of trajectory inference
           </div>
-            <div class="chapter-subheading">
-              <span class="fragment fade-in-then-semi-out chapter-subheading" data-fragment-index="1">
-                  [ a problem
-              </span>
-              <span class="fragment fade-in-then-semi-out chapter-subheading" data-fragment-index="2">
-                    and a possible solution ]
-              </span>
+          <div class="container-row chapter-content">
+            <div class="full" data-svg="slides/dyno/toolkit.svg"></div>
+          </div>
+        </section>
+
+        <section data-vertical-align-top id="komparo">
+          <div class="chapter-heading">
+            <span class="chapter-number" style="background-color:#39ccccff">7</span>
+            Future of benchmarking
+          </div>
+          <div class="container-row chapter-content">
+            <div class="full" data-svg="slides/komparo/modules.svg"></div>
+          </div>
+        </section>
+
+
+        <section>
+          <div class="container">
+            <div class="col bordered full">
+              <div id="overview" data-svg="slides/title/overview.svg"></div>
             </div>
+            <div class="col bordered full">
+              <div style="line-height:2em;">
+                My goals:
+                <ul class="fa-ul" style="list-style-type: none;padding-left:40px;font-size:0.8em">
+                  <li>
+                    <span class="fa-li"><i class="far fa-check-square"></i></span>
+                    Fill the gaps where possible
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="far fa-check-square"></i></span>
+                    Compare methods where needed
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </section>
 			</div>
 		</div>
@@ -359,7 +441,8 @@
         height: 720,
         transition: 'none',
         transitionSpeed: 'fast',
-        fragmentInURL: true
+        fragmentInURL: true,
+        defaultTiming: 120
       });
     </script>
     <script src="js/fragments.js"></script>
