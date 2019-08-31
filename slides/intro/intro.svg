@@ -9,15 +9,30 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="132.23219mm"
-   height="135.0412mm"
-   viewBox="0 0 132.2322 135.0412"
+   width="261.18155mm"
+   height="138.33928mm"
+   viewBox="0 0 261.18156 138.33928"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="intro.svg">
   <defs
      id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1034"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#465054;fill-opacity:1;fill-rule:evenodd;stroke:#465054;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
@@ -50,6 +65,21 @@
          result="composite2"
          id="feComposite6453" />
     </filter>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1034-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#465054;fill-opacity:1;fill-rule:evenodd;stroke:#465054;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -58,9 +88,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="360.35773"
-     inkscape:cy="294.60674"
+     inkscape:zoom="1.4"
+     inkscape:cx="689.39974"
+     inkscape:cy="135.46136"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -88,10 +118,63 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="back"
+     sodipodi:insensitive="true"
+     transform="translate(57.074402,2.1641562)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.01181102;stroke:none;stroke-width:0.54100001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.03149606;paint-order:normal"
+       id="rect24214"
+       width="261.18155"
+       height="138.33928"
+       x="-57.074402"
+       y="-2.1641562" />
+  </g>
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(6.48878,20.923034)">
+     transform="translate(63.563182,23.08719)">
+    <g
+       id="g25034"
+       data-index="transcriptomics">
+      <path
+         data-index="transcriptomics"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1023"
+         d="m 95.140091,81.585621 c 24.167039,19.870329 2.414789,12.184741 40.009879,3.506526"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#465054;stroke-width:0.54100001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-7);paint-order:normal" />
+      <text
+         data-index="transcriptomics"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.7424922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="137.83177"
+         y="85.709183"
+         id="text817-6-0-3"
+         transform="scale(1.0061194,0.99391782)"><tspan
+           sodipodi:role="line"
+           x="137.83177"
+           y="85.709183"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
+           id="tspan819-9-9-6">mRNAs</tspan><tspan
+           id="tspan1565"
+           sodipodi:role="line"
+           x="137.83177"
+           y="94.442291"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332">code for proteins</tspan><tspan
+           id="tspan24114"
+           sodipodi:role="line"
+           x="137.83177"
+           y="103.1754"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332">easy to study</tspan><tspan
+           id="tspan24116"
+           sodipodi:role="line"
+           x="137.83177"
+           y="111.90851"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"> → transcriptomics</tspan></text>
+    </g>
     <g
        id="g6443"
        style="filter:url(#filter6455)">

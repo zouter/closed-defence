@@ -90,6 +90,12 @@ pt.slideActives = {
     init: function(slideId) {
     }
   },
+  'big-questions': {
+    'actives': [
+      [],
+      ["transcriptomics"]
+    ]
+  },
   'intro': {
     'actives': [
       [],

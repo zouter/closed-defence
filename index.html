@@ -27,32 +27,66 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<div class="chapter-content bordered full">
-            <div id="overview" data-svg="slides/title/overview.svg"></div>
+				<section id="hello">
+          <aside class="notes">
+            Hello [...]
+          </aside>
+
+					<div class="chapter-content">
+            <div class="container">
+              <div class="col bordered full">
+                <div class="container-row">
+                  <div class="row">
+                    <div>
+                      <sup><i class="fas fa-graduation-cap"></i></sup>
+                      <h1>Closed PhD defence</h1>
+                      Wouter Saelens
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div>This presentation:<br> <a href="https://zouter.github.io/closed-defence">zouter.github.io/closed-defence
+                        <sup><i class="fas fa-external-link-alt" style="font-size:0.7em"></i></sup></a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col bordered full">
+                <div id="overview" data-svg="slides/title/overview.svg"></div>
+              </div>
+            </div>
           </div>
-				</section>
-				<section>
+        </section>
+        
+
+				<section id="big-questions">
+          <aside class="notes">
+            Why do we even study transcriptomics? Well we have these large questions, such as [...] But to answer them we have to go
+            smaller and smaller: look into what cells are doing, but to understand that we have to look into what is inside this
+            cell. Of course a bunch of molecules, and one molecule that is relatively easy to quantify and which gives us a lot of
+            information are the mRNA transcripts. They of course encode for proteins, and their abundances can tell us a lot about
+            what the cell is doing.
+          </aside>
           <div class="chapter-heading">
             Big questions often have tiny answers
           </div>
           <div class="chapter-content" style="height:500px;">
             <div data-svg="slides/intro/intro.svg" class="full"></div>
           </div>
-          <aside class="notes">
-            1 min
-
-            It's a bit ironic that the big questions that we want to answer, such as causes of disease or how to make crops grow better, ultimately lead us to smaller questions about cells and the molecules therein. In my PhD I studied one particular kind of molecule, mRNAs. That's why I'm really happy that during my PhD I was able to work on solving perhaps very tiny questions, such as finding the right tool to analyse some dataset, but which can allow us to go back to these "bigger" questions and try to address them.
-          </aside>
         </section>
 
         <section id="intro">
+          <aside class="notes">
+            Transcriptomics data is highly dimensional, i.e. a couple to thousands of samples with information about all protein coding genes data, and this requires computational tools. Some of those are listed here, starting from the simpler [...] to the more complex [...].
+
+            The goal in my PhD wasn't set in stone from the beginning. Instead I tried to analyze some data in the department and then see where I could contribute new methods, or compare existing methods.
+          </aside>
+
           <div class="container">
             <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
               class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
               class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
               class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a>
-            <div class="col bordered" data-svg="slides/intro/tools.svg">
+            <div class="col bordered">
+              <div data-svg="slides/intro/tools.svg" class="full"></div>
             </div>
             <div class="col bordered" style="line-height:2em;" data-index="goals">
               <div>
@@ -70,9 +104,6 @@
               </div>
             </div>
           </div>
-          <aside class="notes">
-            My goals were pragmatic here: I wanted to fill the gaps whem I came across them, and wherever it was needed I also wanted to compare different methods.
-          </aside>
         </section>
 
         <section data-vertical-align-top id="triwise">
@@ -117,8 +148,8 @@
           </div>
           <div class="chapter-content" data-index="solution">
             <div class="container">
-                <div class="col bordered" data-svg="slides/triwise/lianne.svg" style="flex:2;width:65%;float:left;background-color:white;"></div>
-                <div class="col bordered" data-svg="slides/triwise/lianne2.svg" style="float:right;background-color:white;" data-index="significant"></div>
+                <div class="col bordered" data-svg="slides/triwise/lianne.svg" style="flex:2"></div>
+                <div class="col bordered" data-svg="slides/triwise/lianne2.svg" style="flex:1" data-index="significant"></div>
             </div>
           </div>
 

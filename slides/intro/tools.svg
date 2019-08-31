@@ -11,9 +11,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="730.09271"
-   height="689.75781"
-   viewBox="0 0 193.17036 182.49843"
+   width="740.85468"
+   height="726.71747"
+   viewBox="0 0 196.01779 192.27734"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -167,7 +167,7 @@
     <linearGradient
        id="linearGradient9782"
        osb:paint="solid"
-       gradientTransform="matrix(0,0,0,0,-123.03053,75.138897)">
+       gradientTransform="matrix(0,0,0,0,-109.37655,55.581077)">
       <stop
          style="stop-color:#ff6565;stop-opacity:1;"
          offset="0"
@@ -2545,7 +2545,7 @@
        xlink:href="#linearGradient1330"
        id="linearGradient10515"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-38.316769,211.3947)"
+       gradientTransform="translate(-31.489775,201.61579)"
        x1="214.45274"
        y1="-19.397268"
        x2="256.16803"
@@ -2752,7 +2752,7 @@
        xlink:href="#linearGradient1330"
        id="linearGradient8904"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-37.00206,82.112489)"
+       gradientTransform="translate(-30.175066,72.333579)"
        x1="214.45274"
        y1="-19.397268"
        x2="256.16803"
@@ -2762,7 +2762,7 @@
        xlink:href="#linearGradient1330"
        id="linearGradient8906"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(10.912854,79.800805)"
+       gradientTransform="translate(17.739848,70.021895)"
        x1="214.45274"
        y1="-19.397268"
        x2="256.16803"
@@ -2772,7 +2772,7 @@
        xlink:href="#linearGradient1330"
        id="linearGradient8908"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(10.778448,77.489187)"
+       gradientTransform="translate(-30.30953,114.58916)"
        x1="214.45274"
        y1="-19.397268"
        x2="256.16803"
@@ -2782,7 +2782,7 @@
        xlink:href="#linearGradient1330"
        id="linearGradient8910"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-38.316768,169.06167)"
+       gradientTransform="translate(16.42519,112.4131)"
        x1="214.45274"
        y1="-19.397268"
        x2="256.16803"
@@ -2792,7 +2792,7 @@
        xlink:href="#linearGradient1330"
        id="linearGradient8912"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(9.5982117,119.79363)"
+       gradientTransform="translate(16.425206,110.01472)"
        x1="214.45274"
        y1="-19.397268"
        x2="256.16803"
@@ -2806,7 +2806,7 @@
        x2="256.16803"
        y2="-40.25491"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-47.172072,181.60095)" />
+       gradientTransform="translate(-40.345078,171.82204)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1330"
@@ -2816,7 +2816,7 @@
        x2="256.16803"
        y2="-40.25491"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2.0575617,9.9856575)" />
+       gradientTransform="translate(8.8845558,0.20674734)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2826,8 +2826,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.68854166"
-     inkscape:cx="545.80183"
-     inkscape:cy="265.7828"
+     inkscape:cx="611.37507"
+     inkscape:cy="380.14317"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2849,8 +2849,8 @@
        spacingy="2.0857634"
        units="px"
        empspacing="20"
-       originx="48.514612"
-       originy="9.8945744" />
+       originx="41.687614"
+       originy="9.8945765" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -2869,7 +2869,7 @@
      id="layer1"
      inkscape:label="Layer 1"
      style="display:inline"
-     transform="translate(-3.2662575,-9.9856575)">
+     transform="translate(-10.093251,-0.20674734)">
     <g
        id="g5940">
       <g
@@ -3008,10 +3008,10 @@
          id="text1452-3-7"
          y="33.6404"
          x="195.41124"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan1472-3"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            y="33.6404"
            x="195.41124"
            sodipodi:role="line">Clustering</tspan></text>
@@ -3023,15 +3023,15 @@
          id="text1452-3"
          y="29.797743"
          x="60.937687"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            y="29.797743"
-           x="60.937687"
+           x="60.937691"
            id="tspan1450-6"
            sodipodi:role="line">Pre-processing &amp;</tspan><tspan
            id="tspan1472"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            y="38.264408"
            x="60.937687"
            sodipodi:role="line">normalisation</tspan></text>
@@ -3217,24 +3217,24 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          x="61.330429"
          y="77.191154"
          id="text1452-3-7-4-7-6-5"><tspan
            sodipodi:role="line"
            x="61.330429"
            y="77.191154"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            id="tspan1472-3-5-8-8-3">Differential</tspan><tspan
            sodipodi:role="line"
            x="61.330429"
            y="85.657822"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            id="tspan2720-5">expression</tspan></text>
     </g>
     <g
        id="g5650"
-       transform="translate(116.16672,-22.023239)">
+       transform="translate(164.08169,-68.902119)">
       <g
          transform="translate(-264.89486,166.11924)"
          style="stroke:none"
@@ -3365,24 +3365,24 @@
       </g>
       <text
          id="text1452-3-7-2"
-         y="144.28897"
-         x="-53.889374"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         y="146.01817"
+         x="-4.6041117"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan1472-3-9"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
-           y="144.28897"
-           x="-53.889374"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
+           y="146.01817"
+           x="-4.6041117"
            sodipodi:role="line">Dimensionality</tspan><tspan
            id="tspan1535"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
-           y="152.75563"
-           x="-53.889374"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
+           y="154.48483"
+           x="-4.6041117"
            sodipodi:role="line">reduction</tspan></text>
     </g>
     <g
        id="g5840"
-       transform="translate(-44.475439,-55.864776)">
+       transform="translate(-92.390413,-8.9951099)">
       <g
          transform="translate(-54.632863,54.347686)"
          id="g6013-5"
@@ -3536,19 +3536,19 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="204.5589"
-         y="132.69365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="154.9705"
+         y="132.01436"
          id="text1452-3-7-2-1-2"><tspan
            sodipodi:role="line"
-           x="204.5589"
-           y="132.69365"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:start;text-anchor:start;stroke-width:0.26458332"
+           x="154.9705"
+           y="132.01436"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            id="tspan1535-7-5">Trajectory</tspan><tspan
            sodipodi:role="line"
-           x="204.5589"
-           y="141.16031"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:start;text-anchor:start;stroke-width:0.26458332"
+           x="154.9705"
+           y="140.48102"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            id="tspan1562-8">inference</tspan></text>
     </g>
     <g
@@ -3710,15 +3710,15 @@
          id="text1452-3-7-2-1-0"
          y="251.85736"
          x="60.751652"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            id="tspan1562-3"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            y="251.85736"
            x="60.751652"
            sodipodi:role="line">Network</tspan><tspan
            id="tspan1587"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:end;text-anchor:end;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            y="260.32404"
            x="60.751652"
            sodipodi:role="line">inference</tspan></text>
@@ -4048,19 +4048,19 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          x="263.78891"
          y="204.24954"
          id="text1452-3-7-2-1-0-6-21"><tspan
            sodipodi:role="line"
            x="263.78891"
            y="204.24954"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:start;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            id="tspan1587-6-6">Cell</tspan><tspan
            sodipodi:role="line"
            x="263.78891"
            y="212.7162"
-           style="font-size:7.05555534px;line-height:0.80000001em;text-align:start;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
            id="tspan1612-3">alignment</tspan></text>
     </g>
     <g
@@ -4489,21 +4489,32 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;display:inline;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            x="107.82664"
            y="289.23712"
            id="text1452-3-7-2-1-0-6-2-2"><tspan
              sodipodi:role="line"
              x="107.82664"
              y="289.23712"
-             style="font-size:7.05555534px;line-height:0.80000001em;text-align:start;text-anchor:start;stroke-width:0.26458332"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
              id="tspan1612-1-4">Data</tspan><tspan
              sodipodi:role="line"
              x="107.82664"
              y="297.7038"
-             style="font-size:7.05555534px;line-height:0.80000001em;text-align:start;text-anchor:start;stroke-width:0.26458332"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0.80000001em;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;text-anchor:start;fill:#475255;fill-opacity:1;stroke-width:0.26458332"
              id="tspan1637-5">integration</tspan></text>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#475255;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="37.273823"
+       y="5.9228058"
+       id="text6966"><tspan
+         sodipodi:role="line"
+         id="tspan6964"
+         x="37.273823"
+         y="5.9228058"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:Lato;fill:#475255;fill-opacity:1;stroke-width:0.26458332">What can you do with transcriptomics data?</tspan></text>
   </g>
 </svg>

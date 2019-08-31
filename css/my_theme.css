@@ -59,6 +59,15 @@ div.container-row,  .chapter-content > div.container-row {
   color: #475255;
 }
 
+.reveal h1 {
+    font-family:inherit;
+    font-size:1.5em;
+    text-transform: inherit;
+    padding:10px;
+    color: #475255;
+}
+
+
 .reveal h3 {
     font-family:inherit;
     font-size:1.2em;
