@@ -60,8 +60,7 @@
 				<section id="big-questions">
           <aside class="notes">
             Why do we even study transcriptomics? Well we have these large questions, such as [...] But to answer them we have to go
-            smaller and smaller: look into what cells are doing, but to understand that we have to look into what is inside this
-            cell. Of course a bunch of molecules, and one molecule that is relatively easy to quantify and which gives us a lot of
+            smaller and smaller: look into what cells are doing, which leads us to trying to understand what is happening in this cell. Of course a bunch of molecules, and one molecule that is relatively easy to quantify and which gives us a lot of
             information are the mRNA transcripts. They of course encode for proteins, and their abundances can tell us a lot about
             what the cell is doing.
           </aside>
@@ -107,6 +106,20 @@
         </section>
 
         <section data-vertical-align-top id="triwise">
+          <aside class="notes">
+            One problem that I encountered early in my PhD is the analysis of 3 biological conditions. When we have two conditions, a pairwise analysis is quite easy. Also if you have more samples, some clustering is typically employed to simplify the dataset and visualize it. The problem is, when I had three conditions, the first approach would require you to do many pairwise comparisons making it difficult to interpret. The other approach would also not work that well because the data is too simple to really try to cluster the genes.
+
+            <hr>
+
+            So that's why I developed this visualisation technique where I convert the data to two dimensions using a barycentric transformation. Genes that are not different in any of the three samples are in the middle. Other genes move towards one of the three poles depending on their expression. The distance to the origin is the magnitude of differential expression.
+            <br>
+            One of the strengths of this analysis is that you can highlight functional gene sets and see whether they are differentialle expressed in a particular direction. For example, here you can see [...]
+
+            <hr>
+            Overall, this approach is interesting in that you can use it for many designs, such as the case where you have one reference and two populations of interest. Depending on the biological question, you also have different tests.
+            I'm happy with the output that we have with this project, although the approach also has some issues, such as its limitation to three dimensions and the slow implementation of the permutation test. Finally, I think in the future the package could benefit from having a more theoretical statistical background, for example for the self-contained test.
+          </aside>
+
           <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a>
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:#FF4136">2</span> 
@@ -198,6 +211,21 @@
         </section>
 
         <section data-vertical-align-top id="modbenchmark">
+          <aside class="notes">
+            My next project concerned the use of gene module detection methods. The reason we want to use these methods is that we want to find genes that are functionally and/or regulatory related. This would help us to better understand the process that we are studying, which is often regulated by many genes. The way we do this is that we first group genes based on their similar expression profile, and we assume that these genes because they are co-expressed, will also share function and regulation.
+
+            There are many methods to find these modules, and my goal was to evaluate them. So what I did was to actually test this assumption: are these methods detecting co-regulated or functionally related modules?
+
+            <hr>
+
+            There are many methods to get modules. The most popular one are of course the clustering methods, such as hierarchical clustering shown here. But you also have alternatives such as decomposition and biclustering, which will look for local co-expression patterns and potentially overlapping modules. You also have network inference based methods which will infer some kind of regulatory network together with module detection.
+
+            
+
+
+          </aside>
+
+
           <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a>
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:#FF851B">3</span> 
@@ -426,7 +454,7 @@
             <div class="col bordered full">
               <div style="line-height:2em;">
                 My goals:
-                <ul class="fa-ul" style="list-style-type: none;padding-left:40px;font-size:0.8em">
+                <ul class="fa-ul" style="list-style-type: none;padding-left:40px">
                   <li>
                     <span class="fa-li"><i class="far fa-check-square"></i></span>
                     Fill the gaps where possible

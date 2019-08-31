@@ -21,7 +21,7 @@
    inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><linearGradient
        id="linearGradient7250"><stop
          style="stop-color:#000000;stop-opacity:1;"
@@ -302,9 +302,9 @@
      inkscape:window-height="983"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.45239365"
-     inkscape:cx="621.71894"
-     inkscape:cy="297.99603"
+     inkscape:zoom="0.9047873"
+     inkscape:cx="1215.4179"
+     inkscape:cy="203.48056"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -428,41 +428,43 @@
                    width="1" /></g></g></g></g></g></g></g></g><text
    y="-180.39566"
    x="191.68039"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.53683853px;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60977399"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.53683853px;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#475255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60977399;"
    id="text1856-6-1"><tspan
      y="-180.39566"
      x="191.68039"
      sodipodi:role="line"
      id="tspan1854-6-8"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399">E. coli</tspan><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399;fill:#475255;fill-opacity:1;">E. coli</tspan><tspan
      id="tspan4102"
      y="-148.84409"
      x="191.68039"
      sodipodi:role="line"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399">Yeast</tspan><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399;fill:#475255;fill-opacity:1;">Yeast</tspan><tspan
      id="tspan4104"
      y="-117.29251"
      x="191.68039"
      sodipodi:role="line"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399">Human</tspan><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399;fill:#475255;fill-opacity:1;">Human</tspan><tspan
      id="tspan4106"
      y="-85.740944"
      x="191.68039"
      sodipodi:role="line"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399">Synthetic</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.39999998;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977399;fill:#475255;fill-opacity:1;">Synthetic</tspan></text>
+
 
 
 
 <text
    y="-36.842381"
    x="189.47446"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.53683853px;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60977387"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.53683853px;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#475255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60977387;"
    id="text1856-6-1-7"><tspan
      id="tspan4106-2"
      y="-36.842381"
      x="189.47446"
      sodipodi:role="line"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977387">Module definitions</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977387;fill:#475255;fill-opacity:1;">Module definitions</tspan></text>
+
 
 
 
@@ -473,15 +475,26 @@
    height="18.236332"
    x="75.462547"
    y="-262.06812" /><text
-   y="-269.29715"
-   x="198.33368"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.8847332px;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.42033803"
+   y="-336.11685"
+   x="152.53183"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.8847332px;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#475255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.42033803;"
    id="text1856-6-3-2"><tspan
-     id="tspan4198-9"
-     y="-269.29715"
-     x="198.33368"
+     y="-317.62405"
+     x="152.53183"
      sodipodi:role="line"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.42033803">Test score</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.42033803;fill:#475255;fill-opacity:1;"
+     id="tspan27358" /><tspan
+     y="-292.76813"
+     x="152.53183"
+     sodipodi:role="line"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:1.42033803;fill:#475255;fill-opacity:1;"
+     id="tspan27362">Co-regulation</tspan><tspan
+     y="-267.91223"
+     x="152.53183"
+     sodipodi:role="line"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:1.42033803;fill:#475255;fill-opacity:1;"
+     id="tspan27364">test score</tspan></text>
+
 
 
 
@@ -496,6 +509,7 @@
      x="1376.9712"
      id="tspan3502-6-7-5-7-6"
      sodipodi:role="line">Random</tspan></text>
+
 
 
 
@@ -1028,6 +1042,7 @@
 
 
 
+
 <text
    y="84.924004"
    x="107.7836"
@@ -1048,6 +1063,7 @@
      x="107.7836"
      sodipodi:role="line"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.42033803">Score</tspan></text>
+
 
 
 
@@ -1209,6 +1225,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient25068);fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -1220,6 +1237,7 @@
      x="740.82605"
      y="-158.54831"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6px;font-family:Lato;-inkscape-font-specification:Lato;fill:url(#linearGradient25068);fill-opacity:1;stroke-width:0.75">Samples/cells</tspan></text>
+
 
 
 
@@ -1239,6 +1257,7 @@
 
 
 
+
 </g><g
    id="g7526"
    data-index="local"><g
@@ -1253,6 +1272,7 @@
      x="1029.1469"
      id="tspan3502-6-7-5"
      sodipodi:role="line">Biclustering</tspan></text>
+
 
 
 
@@ -1498,6 +1518,7 @@
 
 
 
+
 <g
    transform="translate(144.40868,-170.24327)"
    id="g2010"><g
@@ -1559,6 +1580,7 @@
      x="835.16498"
      y="-1.6275604"
      id="tspan2046">x</tspan></text>
+
 
 
 
@@ -1628,6 +1650,7 @@
 
 
 
+
 <g
    id="g2320"
    transform="matrix(1,0,0,-1,144.40868,-170.24327)"><path
@@ -1667,6 +1690,7 @@
 
 
 
+
 </g><text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:21.40342522px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1297);fill-opacity:1;stroke:none;stroke-width:0.53508562"
@@ -1678,6 +1702,7 @@
      y="-367.93021"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:url(#linearGradient1297);fill-opacity:1;stroke-width:0.53508562"
      id="tspan7246">✓ Overlapping modules  ✓ Local co-expression</tspan></text>
+
 
 
 
@@ -1902,6 +1927,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:10.70171261px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient1297);fill-opacity:1;stroke:none;stroke-width:0.26754281"
@@ -1913,6 +1939,7 @@
      y="-121.50849"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:url(#linearGradient1297);fill-opacity:1;stroke-width:0.26754281"
      id="tspan7246-4">✓ Regulatory networks</tspan></text>
+
 
 
 
@@ -2198,20 +2225,22 @@
      y="-3.7984829"
      sodipodi:role="line"
      id="tspan2146"
-     style="stroke-width:0.99999994">6251257744&lt;1144424&lt;1354&lt;152131408161059373141315213646559145974364244&gt;1d39&lt;1&gt;1d</tspan></text>
+     style="stroke-width:0.99999994;-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">6251257744&lt;1144424&lt;1354&lt;152131408161059373141315213646559145974364244&gt;1d39&lt;1&gt;1d</tspan></text>
+
 
 
 
 <text
    y="-1.8333033"
    x="193.19603"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.53683853px;line-height:0.80000001;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60977387"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.53683853px;line-height:0.80000001;font-family:Lato;-inkscape-font-specification:Lato;writing-mode:lr-tb;fill:#475255;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.60977387;"
    id="text1856-6-1-9-7"><tspan
      id="tspan4258"
      y="-1.8333033"
      x="193.19603"
      sodipodi:role="line"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.80000001;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977387">Running time (min)</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.80000001;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:1.60977387;fill:#475255;fill-opacity:1;">Running time (min)</tspan></text>
+
 
 
 
