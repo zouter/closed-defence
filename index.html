@@ -27,7 +27,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section id="hello">
+				<section id="hello" data-timing="40">
           <aside class="notes">
             Hello [...]
           </aside>
@@ -57,7 +57,7 @@
         </section>
         
 
-				<section id="big-questions">
+				<section id="big-questions" data-timing="56">
           <aside class="notes">
             Why do we even study transcriptomics? Well we have these large questions, such as [...] But to answer them we have to go
             smaller and smaller: look into what cells are doing, which leads us to trying to understand what is happening in this cell. Of course a bunch of molecules, and one molecule that is relatively easy to quantify and which gives us a lot of
@@ -72,7 +72,7 @@
           </div>
         </section>
 
-        <section id="intro">
+        <section id="intro" data-timing="40">
           <aside class="notes">
             Transcriptomics data is highly dimensional, i.e. a couple to thousands of samples with information about all protein coding genes data, and this requires computational tools. Some of those are listed here, starting from the simpler [...] to the more complex [...].
 
@@ -105,7 +105,7 @@
           </div>
         </section>
 
-        <section data-vertical-align-top id="triwise">
+        <section data-vertical-align-top id="triwise" data-timing="230">
           <aside class="notes">
             One problem that I encountered early in my PhD is the analysis of 3 biological conditions. When we have two conditions, a pairwise analysis is quite easy. Also if you have more samples, some clustering is typically employed to simplify the dataset and visualize it. The problem is, when I had three conditions, the first approach would require you to do many pairwise comparisons making it difficult to interpret. The other approach would also not work that well because the data is too simple to really try to cluster the genes.
 
@@ -211,7 +211,7 @@
 
         </section>
 
-        <section data-vertical-align-top id="modbenchmark">
+        <section data-vertical-align-top id="modbenchmark"  data-timing="216">
           <aside class="notes">
             My next project concerned the use of gene module detection methods. The reason we want to use these methods is that we want to find genes that are functionally and/or regulatory related. This would help us to better understand the process that we are studying, which is often regulated by many genes. The way we do this is that we first group genes based on their similar expression profile, and we assume that these genes because they are co-expressed, will also share function and regulation.
 
@@ -306,7 +306,7 @@
 
 
 
-        <section data-vertical-align-top id="dynbenchmark">
+        <section data-vertical-align-top id="dynbenchmark" data-timing="300">
           <aside class="notes">
 
             Another way to look at transcriptomics data is through trajectory inference. In contrast to clustering, where essentially you draw "boundaries" around potential populations, trajectories are continuities in your data. Biologically speaking, these trajectories represent dynamic processes such as cell cycle, differentiation, activation etc.
@@ -418,7 +418,7 @@
         </section>
 
 
-        <section data-vertical-align-top id="conclusions">
+        <section data-vertical-align-top id="conclusions"  data-timing="70">
           <aside class="notes">
             So these was the bulk of the work I did during my PhD, and from those I can derive some overall conclusions. I think the studies showed that benchmarking is really important, because the most popular method is not always the best performing for a user, and good ideas in theory do not always lead to better methods for developers, often simple ideas go really far.
 
@@ -457,7 +457,7 @@
           </div>
         </section>
 
-        <section data-vertical-align-top id="dyno">
+        <section data-vertical-align-top id="dyno" data-timing="90">
           <aside class="notes">
             So one of them is using all the infrastructure we developed within the benchmark for users. At this moment, we already created a basic pipeline for doing trajectory inference, that starts with the guidelines app, uses all the wrappers we used for the benchmark, and then some standard interpretation tools such as manipulation of the trajectory, feature selection and plotting. The plan is to add some functionality on this toolkit, such as integration with RNA velocity, other single-cell tools such as seurat and scanpy, alignment of trajectories, better differential expression, and a modular visualization suite.
           </aside>
@@ -487,7 +487,7 @@
         </section>
 
 
-        <section>
+        <section  data-timing="30">
           <aside class="notes">
             So this was my thesis, these were my goals, and although they were of course defined very broad, I hope I still succeeded in them. Thank you.
           </aside>
