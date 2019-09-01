@@ -111,9 +111,10 @@
 
             <hr>
 
-            So that's why I developed this visualisation technique where I convert the data to two dimensions using a barycentric transformation. Genes that are not different in any of the three samples are in the middle. Other genes move towards one of the three poles depending on their expression. The distance to the origin is the magnitude of differential expression.
+            So that's why I developed this visualisation technique where I convert the data to two dimensions using a barycentric transformation. Genes that are not different in any of the three samples are in the middle. Other genes move towards one of the three poles depending on their expression. The distance to the origin is the magnitude of differential expression. So this is the dataset for which I developed this approach, these are three different macrophage progenitor populations, and some of these were more efficient in generating macrophages and so we were wondering why this was. 
+
             <br>
-            One of the strengths of this analysis is that you can highlight functional gene sets and see whether they are differentialle expressed in a particular direction. For example, here you can see [...]
+            So one of the strengths of this analysis is that you can highlight functional gene sets and see whether they are differentialle expressed in a particular direction. For example, here you can see [...]
 
             <hr>
             Overall, this approach is interesting in that you can use it for many designs, such as the case where you have one reference and two populations of interest. Depending on the biological question, you also have different tests.
@@ -220,8 +221,13 @@
 
             There are many methods to get modules. The most popular one are of course the clustering methods, such as hierarchical clustering shown here. But you also have alternatives such as decomposition and biclustering, which will look for local co-expression patterns and potentially overlapping modules. You also have network inference based methods which will infer some kind of regulatory network together with module detection.
 
-            
+            <br>
 
+            I evaluated these methods on a couple of datasets by checking how well the genes within the modules were known to be co-regulated. While there is some variability between datasets, it's pretty corelated overall. I also checked the running times of course, especially biclustering and network inference methods do not scale very well. You can then average these values to get an overall score for each method, both a training score (which may overfit on a dataset) and a test score. Overall we found that biclustering method surprisingly do not perform well and are quite parameter dependent. The best performers were some of these decomposition methods that provide overlapping and local-co-expression modules with decent scalability, at least on the bulk datasets tested here. There are many more analyses included in the paper delving further into these results.
+
+            <hr>
+
+            To conclude, I'm really happy to have done the first comprehensive evaluation of these methods. We highlight the potential for decomposition methods for these kinds of analyses, but still pinpoint some challenges for users and developers regarding interpretion. With one publication, but being used by several others, I think this was a succes. Of course, during my PhD a lot changed in the transcriptomics field, and some of these results may no longer apply. In the future, it may be useful to repeat this analysis with single-cell data and other omic types.
 
           </aside>
 
@@ -295,17 +301,36 @@
               </div>
             </div>
           </div>
-
-
-          <aside class="notes">
-            What we want to know is which genes share regulation (ie. to find their common regulator that can be targeted) or function (i.e. to understand more about the functional process)
-          </aside>
         </section>
 
 
 
 
         <section data-vertical-align-top id="dynbenchmark">
+          <aside class="notes">
+
+            Another way to look at transcriptomics data is through trajectory inference. In contrast to clustering, where essentially you draw "boundaries" around potential populations, trajectories are continuities in your data. Biologically speaking, these trajectories represent dynamic processes such as cell cycle, differentiation, activation etc.
+
+            During my PhD I saw the rise of these methods, from the first in 2014, onto its "boom" in 2016 and its explosion in 2017.  While we initially wanted to create our own method, after a while we though: screw this, we're going to evaluate them. At one point in 2017 I was literally adding new methods every day just by some simple google scholar searches. The properties of these methods shifted a bit during their growth, first linear, later trees and disconnected trajectories, and now the focus is (or should be) on scalability. As a reference, the growth of these methods lags a bit behind the development of single-cell technologies (obviously).
+
+            <hr>
+
+            During my PhD I together with my dearest colleague, created a evaluation pipeline, and while I could fill hours talking about it, I will just discuss some of the conclusions here. So one of the things I'm most proud of here are the practical guidelines that we created for the users. In essense, one primary determinant in the choice of method is the kind of topology that is expected to be in the data. It's true, this adds some subjectivity, but if it makes your trajectory better, it's perhaps a risk you can take. So in this case for example, if you suspect a tree trajectory to be present in the data, you would follow the flow chart all the way through and ultimately end up with methods such as slingshot. 
+
+            <hr>
+
+            Of course, topology is only one aspect of the data, and there are many more such as dataset size and the prior information that the user has. So to provide context-dependent guidelines, we created this interactive shiny app where a user is given a set of questions and they then are provided with a set of methods. Additional information is also shown, such as indications of instability of the output models.
+
+            <hr>
+
+            So again, this was a first comprehensive evaluation of these methods, but here we really pushed the guidelines to the next level with making them very context-dependent. The project as a whole led to two shared first author papers, one being a review, a couple of preprints, and dozens of R packages some of which are by now on CRAN (as they should).
+
+            Of course, this evaluation also has some limitations, such as its extendability, and the fact that it is already outdated. There is also some discussion in the field, especially from those that developed methods that didn't perform well in the comparison. The whole evaluation pipeline will be reused soon in the form of a competition, and there are still countless of extensions possible from this evaluation, some of which we are doing at the moment.
+          
+          </aside>
+
+
+
           <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
             class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
             class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
@@ -393,7 +418,18 @@
         </section>
 
 
-        <section data-vertical-align-top>
+        <section data-vertical-align-top id="conclusions">
+          <aside class="notes">
+            So these was the bulk of the work I did during my PhD, and from those I can derive some overall conclusions. I think the studies showed that benchmarking is really important, because the most popular method is not always the best performing for a user, and good ideas in theory do not always lead to better methods for developers, often simple ideas go really far.
+
+            Moreover, the different metrics we calculated for the methods are often not similar, so you can have a very accurate method but its much less scalable, or vice versa. So finding a balance between these is critical.
+
+            In bio-informatics, there is often a focus on being on top of the ranking, but with both comparisons we showed that this is really problematic thinking. Often, some methods work well on particular use cases, for example particular topologies, and a good benchmark should highlight those and avoid falling in the "one-ranking-that-rules-them-all" idea.
+
+            I already mentioned that the last benchmarking study really has a lot of potential for spin-off studies, and I highlight two of them in the thesis as future perspectives.
+          </aside>
+
+
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:darkgray">5</span>
             Overall conclusions
@@ -418,14 +454,14 @@
                Performance is context-dependent <br>
                Avoid falling in the "ranking" trap
             </div>
-            <div class="row bordered">
-              Benchmarking studies can easily contradict <br>
-              Finding common ground is difficult
-            </div>
           </div>
         </section>
 
         <section data-vertical-align-top id="dyno">
+          <aside class="notes">
+            So one of them is using all the infrastructure we developed within the benchmark for users. At this moment, we already created a basic pipeline for doing trajectory inference, that starts with the guidelines app, uses all the wrappers we used for the benchmark, and then some standard interpretation tools such as manipulation of the trajectory, feature selection and plotting. The plan is to add some functionality on this toolkit, such as integration with RNA velocity, other single-cell tools such as seurat and scanpy, alignment of trajectories, better differential expression, and a modular visualization suite.
+          </aside>
+
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:#0074D9">6</span> 
             Future of trajectory inference
@@ -436,6 +472,11 @@
         </section>
 
         <section data-vertical-align-top id="komparo">
+          <aside class="notes">
+            I also have a lot of ideas with respect to making benchmarking better. This mainly centers around collaborartive and continuous benchmarking, where you would have several modules, including dataset generators, metrics, methods and report generators, that could be provided by different actors in the field, such as biologists, method developers, and benchmarkers. Combining these modules with modern software technologies, such as containerisation and continuous integration, it would become possible to have a benchmarking platform that is extendable, always up-to-date, reproducible, would embrace disagreement in the field and would avoid double work by developers. In the end, I think this could transform method development in bioinformatics as a whole.
+          </aside>
+
+
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:#39ccccff">7</span>
             Future of benchmarking
@@ -447,6 +488,9 @@
 
 
         <section>
+          <aside class="notes">
+            So this was my thesis, these were my goals, and although they were of course defined very broad, I hope I still succeeded in them. Thank you.
+          </aside>
           <div class="container">
             <div class="col bordered full">
               <div id="overview" data-svg="slides/title/overview.svg"></div>
