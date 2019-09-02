@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="261.18155mm"
+   width="283.86011mm"
    height="138.33928mm"
-   viewBox="0 0 261.18156 138.33928"
+   viewBox="0 0 283.86012 138.33928"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -88,11 +88,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="689.39974"
-     inkscape:cy="135.46136"
+     inkscape:zoom="0.7"
+     inkscape:cx="483.41405"
+     inkscape:cy="460.04776"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="983"
@@ -121,21 +121,20 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="back"
-     sodipodi:insensitive="true"
-     transform="translate(57.074402,2.1641562)">
+     transform="translate(79.752975,2.1641562)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:0.01181102;stroke:none;stroke-width:0.54100001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.03149606;paint-order:normal"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.01181102;stroke:none;stroke-width:0.56399882;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.03149606;paint-order:normal"
        id="rect24214"
-       width="261.18155"
+       width="283.86011"
        height="138.33928"
-       x="-57.074402"
+       x="-79.752975"
        y="-2.1641562" />
   </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(63.563182,23.08719)">
+     transform="translate(86.241755,23.08719)">
     <g
        id="g25034"
        data-index="transcriptomics">
