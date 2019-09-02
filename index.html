@@ -76,7 +76,7 @@
           <aside class="notes">
             Transcriptomics data is highly dimensional, i.e. a couple to thousands of samples with information about all protein coding genes data, and this requires computational tools. Some of those are listed here, starting from the simpler [...] to the more complex [...].
 
-            The goal in my PhD wasn't set in stone from the beginning. Instead I tried to analyze some data in the department and then see where I could contribute new methods, or compare existing methods.
+            The goal in my PhD wasn't set in stone from the beginning. Instead I tried to analyse some data in the department and then see where I could contribute new methods, or compare existing methods.
           </aside>
 
           <div class="container">
@@ -90,14 +90,24 @@
             <div class="col bordered" style="line-height:2em;" data-index="goals">
               <div>
                 <p>My goals: </p>
+                <p>
+                Analyse transcriptome of <br> macrophages and dendritic cells
+                </p>
+                <p>
+                  But...
+                </p>
                 <ul class="fa-ul" style="list-style-type: none;padding-left:40px">
                   <li>
                     <span class="fa-li"><i class="far fa-square"></i></span>
-                    Fill the gaps where possible
+                    <p>How to do differential expression for 3 conditions?</p>
                   </li>
                   <li>
                     <span class="fa-li"><i class="far fa-square"></i></span>
-                    Compare methods where needed
+                    <p>So many module detection methods, which one should I use?</p>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="far fa-square"></i></span>
+                    <p>So many trajectory inference detection methods, which one should I use?</p>
                   </li>
                 </ul>
               </div>
@@ -124,7 +134,7 @@
           <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a>
           <div class="chapter-heading">
             <span class="chapter-number" style="background-color:#FF4136">2</span> 
-            From two to three conditions | 
+            Differential expression for three conditions | 
             <span class="chapter-subheading"  style="color:#FF4136">
               <span data-index="problem">
                   problem
@@ -154,7 +164,7 @@
               </div>
               <div class="col bordered" data-index="existing">
                 <div>
-                  <p>Comparing many populations: <br>easy</p>
+                  <p>Comparing many populations: <br>straightforward</p>
                   <p><img src="slides/triwise/many_example.png" style="width:75%"></p>
                 </div>
               </div>
@@ -193,15 +203,6 @@
                 <div class="conclusion-content">
                   <ul>
                     <li>Limited to 3 dimensions</li>
-                    <li>Slow implementation of permutation test</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row bordered conclusion-box" data-index="future">
-                <div class="conclusion-icon"><i class="fas fa-tasks"></i></div>
-                <div class="conclusion-content">
-                  <ul>
-                    <li>Better statistical framework</li>
                   </ul>
                 </div>
               </div>
@@ -285,26 +286,13 @@
                 <div class="conclusion-icon"><i class="fas fa-times"></i></div>
                 <div class="conclusion-content">
                   <ul>
-                    <li>Limited to larger bulk datasets</li>
-                    <li>Extendability could have been better</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row bordered conclusion-box" data-index="future">
-                <div class="conclusion-icon"><i class="fas fa-tasks"></i></div>
-                <div class="conclusion-content">
-                  <ul>
-                    <li>Single-cell data changes the playing field</li>
-                    <li>Other omics data types</li>
+                    <li>Not evaluated for single-cell data</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
-
-
 
         <section data-vertical-align-top id="dynbenchmark" data-timing="300">
           <aside class="notes">
@@ -328,8 +316,6 @@
             Of course, this evaluation also has some limitations, such as its extendability, and the fact that it is already outdated. There is also some discussion in the field, especially from those that developed methods that didn't perform well in the comparison. The whole evaluation pipeline will be reused soon in the form of a competition, and there are still countless of extensions possible from this evaluation, some of which we are doing at the moment.
           
           </aside>
-
-
 
           <a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
             class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a class="fragment"></a><a
@@ -393,17 +379,7 @@
                 <div class="conclusion-icon"><i class="fas fa-times"></i></div>
                 <div class="conclusion-content">
                   <ul>
-                    <li>Problematic extendability</li>
-                    <li>Already outdated</li>
-                    <li>Some discussion in the field</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="row bordered conclusion-box" data-index="future">
-                <div class="conclusion-icon"><i class="fas fa-tasks"></i></div>
-                <div class="conclusion-content">
-                  <ul>
-                    <li>Countless extensions, as discussed later</li>
+                    <li>Already outdated, although still highly relevant</li>
                   </ul>
                 </div>
               </div>
@@ -435,7 +411,7 @@
           </div>
           <div class="container-row" style="font-size:0.8em">
             <div class="row bordered" >
-              Benchmarking is important for
+              Benchmarking is critical for
               <ul style="list-style: none;text-align:left;">
                 <li>
                   → users, because popular ⇏ best performance
@@ -444,6 +420,7 @@
                   → developers, because good ideas ⇏ better for users
                 </li>
               </ul>
+              </p>
             </div>
             <div class="row bordered">
               Accuracy, scalability, usability and stability are not always correlated. <br>
@@ -452,6 +429,9 @@
             <div class="row bordered">
                Performance is context-dependent <br>
                Avoid falling in the "ranking" trap
+            </div>
+            <div class="row bordered">
+              6 primary research articles (2 first author) <br> 3 pre-prints <br> 2 review articles (1 first author) <br> bunch of R packages
             </div>
           </div>
         </section>
@@ -492,22 +472,32 @@
           </aside>
           <div class="container">
             <div class="col bordered full">
-              <div id="overview" data-svg="slides/title/overview.svg"></div>
-            </div>
-            <div class="col bordered full">
-              <div style="line-height:2em;">
-                My goals:
+              <div>
+                <p>My goals: </p>
+                <p>
+                  Analyse the transcriptome of <br> macrophages and dendritic cells
+                </p>
+                <p>
+                  But...
+                </p>
                 <ul class="fa-ul" style="list-style-type: none;padding-left:40px">
                   <li>
                     <span class="fa-li"><i class="far fa-check-square"></i></span>
-                    Fill the gaps where possible
+                    <p>How to do differential expression for 3 conditions?</p>
                   </li>
                   <li>
                     <span class="fa-li"><i class="far fa-check-square"></i></span>
-                    Compare methods where needed
+                    <p>So many module detection methods, which one should I use?</p>
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="far fa-check-square"></i></span>
+                    <p>So many trajectory inference detection methods, which one should I use?</p>
                   </li>
                 </ul>
               </div>
+            </div>
+            <div class="col bordered full">
+              <div id="overview" data-svg="slides/title/overview.svg"></div>
             </div>
           </div>
 
@@ -544,7 +534,9 @@
         transition: 'none',
         transitionSpeed: 'fast',
         fragmentInURL: true,
-        defaultTiming: 120
+        defaultTiming: 120,
+        controls: false,
+        progress: false
       });
     </script>
     <script src="js/fragments.js"></script>

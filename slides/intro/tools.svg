@@ -23,6 +23,21 @@
    inkscape:export-ydpi="300">
   <defs
      id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5105"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5103"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ffd37a;fill-opacity:1;fill-rule:evenodd;stroke:#ffd37a;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
     <linearGradient
        id="linearGradient9563"
        osb:paint="solid">
@@ -2717,33 +2732,18 @@
          id="path6626-9-2-9-0-31-9-7" />
     </marker>
     <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Mend"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path5742"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#ffd37a;fill-opacity:1;fill-rule:evenodd;stroke:#ffd37a;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
-    </marker>
-    <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker6022-20-4-9"
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow1Mend">
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:#f8a700;fill-opacity:1;fill-rule:evenodd;stroke:#f8a700;stroke-width:1.00000003pt;stroke-opacity:1"
+         style="fill:#ffd37a;fill-opacity:1;fill-rule:evenodd;stroke:#ffd37a;stroke-width:1.00000003pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path6020-6-7-2" />
     </marker>
@@ -2825,9 +2825,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.68854166"
-     inkscape:cx="611.37507"
-     inkscape:cy="380.14317"
+     inkscape:zoom="1.9474899"
+     inkscape:cx="524.14529"
+     inkscape:cy="403.86938"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2860,7 +2860,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3355,7 +3355,7 @@
            inkscape:connector-curvature="0"
            id="path5731"
            d="m 217.07303,-1.8213665 h 35.81325"
-           style="fill:none;stroke:#ffd37a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+           style="fill:#ffd37a;stroke:#ffd37a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5105);fill-opacity:1" />
         <path
            sodipodi:nodetypes="cc"
            inkscape:connector-curvature="0"
